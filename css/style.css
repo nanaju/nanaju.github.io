@@ -1,0 +1,26 @@
+/* Exercise 2 */
+body{
+    background-color: linen;
+}
+
+.container-div {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px LightGray;
+}
+.first-div {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    border-radius: 50%
+    
+}
