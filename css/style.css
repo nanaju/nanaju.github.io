@@ -3,7 +3,43 @@ body{
     background-color: linen;
 }
 
-.container-div {
+.outer-box{
+    position: absolute;
+    background-color: sandybrown;
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+}
+.center-box{
+    position: absolute;
+    background-color: salmon;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    text-transform: uppercase;
+    color: darkslateblue;
+    height: 40px;
+    margin-bottom: 50px;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+  }
+
+.paragraph{
+    text-transform: uppercase;
+    color: darkslateblue;
+    height: 40px;
+    margin-bottom: 50px;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+}
+/* .container-div {
     position: absolute;
     background-color: white;
     width: 400px;
@@ -23,4 +59,4 @@ body{
     background: red;
     border-radius: 50%
     
-}
+} */
